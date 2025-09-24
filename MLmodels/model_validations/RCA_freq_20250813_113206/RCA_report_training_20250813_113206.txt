@@ -1,0 +1,14 @@
+
+Test Accuracy (threshold=0.5): 50.00%
+              precision    recall  f1-score   support
+
+           0     0.5043    0.5852    0.5418      1890
+           1     0.5060    0.4249    0.4619      1890
+
+    accuracy                         0.5050      3780
+   macro avg     0.5052    0.5050    0.5018      3780
+weighted avg     0.5052    0.5050    0.5018      3780
+
+Confusion matrix:
+[[1106  784]
+ [1087  803]]

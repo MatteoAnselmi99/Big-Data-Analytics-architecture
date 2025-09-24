@@ -1,0 +1,14 @@
+
+dataset 15000 1750 epoche
+              precision    recall  f1-score   support
+
+           0     0.7799    0.4857    0.5986      1890
+           1     0.6266    0.8630    0.7260      1890
+
+    accuracy                         0.6743      3780
+   macro avg     0.7033    0.6743    0.6623      3780
+weighted avg     0.7033    0.6743    0.6623      3780
+
+Confusion matrix:
+[[ 918  972]
+ [ 259 1631]]

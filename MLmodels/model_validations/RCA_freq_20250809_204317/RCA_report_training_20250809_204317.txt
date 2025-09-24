@@ -1,0 +1,14 @@
+
+dataset 10000
+              precision    recall  f1-score   support
+
+           0     0.5390    0.3032    0.3881      1890
+           1     0.5153    0.7407    0.6078      1890
+
+    accuracy                         0.5220      3780
+   macro avg     0.5272    0.5220    0.4979      3780
+weighted avg     0.5272    0.5220    0.4979      3780
+
+Confusion matrix:
+[[ 573 1317]
+ [ 490 1400]]

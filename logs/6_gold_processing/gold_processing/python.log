@@ -1,0 +1,105 @@
+2025-07-20 23:35:57,593 INFO: Closing down clientserver connection
+2025-07-20 23:37:41,284 INFO: Closing down clientserver connection
+2025-07-20 23:41:56,228 INFO: Closing down clientserver connection
+2025-07-21 12:34:58,369 ERROR: Traceback (most recent call last):
+2025-07-21 12:34:58,370 ERROR: File "/home/matteo/PycharmProjects/Tesi/BDA_Scripts/ingestion_area/6_gold_processing.py", line 104, in <module>
+2025-07-21 12:34:58,370 ERROR: join_silver_tables(spark, silver_path_tlm,silver_path_clm,gold_path)
+2025-07-21 12:34:58,370 ERROR: File "/home/matteo/PycharmProjects/Tesi/BDA_Scripts/ingestion_area/6_gold_processing.py", line 38, in join_silver_tables
+2025-07-21 12:34:58,370 ERROR: tlm_df = spark.read.format("delta").load(tlm)
+2025-07-21 12:34:58,370 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: ^
+2025-07-21 12:34:58,371 ERROR: File "/home/matteo/PycharmProjects/Tesi/.venv1/lib/python3.12/site-packages/pyspark/sql/readwriter.py", line 311, in load
+2025-07-21 12:34:58,372 ERROR: return self._df(self._jreader.load(path))
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: ^
+2025-07-21 12:34:58,372 ERROR: File "/home/matteo/PycharmProjects/Tesi/.venv1/lib/python3.12/site-packages/py4j/java_gateway.py", line 1362, in __call__
+2025-07-21 12:34:58,373 ERROR: return_value = get_return_value(
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: ^
+2025-07-21 12:34:58,373 ERROR: File "/home/matteo/PycharmProjects/Tesi/.venv1/lib/python3.12/site-packages/pyspark/errors/exceptions/captured.py", line 288, in deco
+2025-07-21 12:34:58,373 ERROR: raise converted from None
+2025-07-21 12:34:58,373 ERROR: pyspark.errors.exceptions.captured
+2025-07-21 12:34:58,373 ERROR: .
+2025-07-21 12:34:58,373 ERROR: AnalysisException
+2025-07-21 12:34:58,377 ERROR: :
+2025-07-21 12:34:58,377 ERROR: [DELTA_TABLE_NOT_FOUND] Delta table `/home/matteo/BDA_project/ingestion_area/current/silver/telematics` doesn't exist.
+2025-07-21 12:34:58,377 INFO: Closing down clientserver connection
+2025-07-21 12:37:35,511 INFO: Salvato in Gold: /home/matteo/BDA_project/ingestion_area/current/gold
+2025-07-21 12:37:35,661 INFO: Closing down clientserver connection
+2025-07-24 21:46:36,963 INFO: Appended in Gold: hdfs://localhost:9000/user/dr.who/ingestion_area/current/gold
+2025-07-24 21:46:37,093 INFO: Closing down clientserver connection
+2025-07-24 22:05:33,857 INFO: Appended in Gold: hdfs://localhost:9000/user/dr.who/ingestion_area/current/gold
+2025-07-24 22:05:33,918 INFO: Closing down clientserver connection
+2025-07-29 18:06:30,550 INFO: Appended in Gold: hdfs://localhost:9000/user/dr.who/ingestion_area/current/gold
+2025-07-29 18:06:31,115 INFO: Closing down clientserver connection

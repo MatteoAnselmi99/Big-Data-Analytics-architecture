@@ -1,0 +1,24 @@
+2025-07-20 23:42:49,598 INFO: Closing down clientserver connection
+2025-07-21 12:37:55,607 INFO: Gold dataset updated successfully
+2025-07-21 12:37:55,608 INFO: Current Gold folder clean successfully.
+2025-07-21 12:37:55,823 INFO: Closing down clientserver connection
+2025-07-24 22:05:08,699 INFO: No historical folder found. Moving current gold in historical gold folder.
+2025-07-24 22:05:08,707 ERROR: Traceback (most recent call last):
+2025-07-24 22:05:08,707 ERROR: File "/home/matteo/PycharmProjects/Tesi/BDA_Scripts/retention_area/7_ml_dataset_manager.py", line 57, in update_ml_dataset
+    h_df = spark.read.parquet(historical)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-07-24 22:05:08,707 ERROR: File "/home/matteo/PycharmProjects/Tesi/.venv1/lib/python3.12/site-packages/pyspark/sql/readwriter.py", line 531, in parquet
+    return self._df(self._jreader.parquet(_to_seq(self._spark._sc, paths)))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-07-24 22:05:08,707 ERROR: File "/home/matteo/PycharmProjects/Tesi/.venv1/lib/python3.12/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+2025-07-24 22:05:08,707 ERROR: File "/home/matteo/PycharmProjects/Tesi/.venv1/lib/python3.12/site-packages/pyspark/errors/exceptions/captured.py", line 175, in deco
+    raise converted from None
+2025-07-24 22:05:08,707 ERROR: pyspark.errors.exceptions.captured.AnalysisException: [UNABLE_TO_INFER_SCHEMA] Unable to infer schema for Parquet. It must be specified manually.
+2025-07-24 22:05:09,479 INFO: Fallback writing completed successfully.
+2025-07-24 22:05:13,101 INFO: Current Gold folder clean successfully.
+2025-07-24 22:05:13,586 INFO: Closing down clientserver connection
+2025-07-29 18:09:03,860 INFO: Gold dataset updated successfully
+2025-07-29 18:09:10,314 INFO: Current Gold folder clean successfully.
+2025-07-29 18:09:10,824 INFO: Closing down clientserver connection
