@@ -248,9 +248,9 @@ if __name__ == "__main__":
     feed_hive_tables()
 
 # BACKUP
-    access_key = "AKIA4HS5FRFJKYG77C2D"
-    secret_key = "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"
-    bucket_name = "telematicbackup"
+    access_key = xxx
+    secret_key = xxx
+    bucket_name = xxx
     backup_bronze(claims, access_key, secret_key, bucket_name, "claims")
     backup_bronze(province, access_key, secret_key, bucket_name, "province")
     backup_bronze(trip_summary, access_key, secret_key, bucket_name, "trip_summary")
